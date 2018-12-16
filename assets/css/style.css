@@ -63,6 +63,18 @@ body {
     border-bottom: 2px solid #ccc;
   }
   
+  a:hover {
+    background: #0E4525;
+    border-radius: 5px;
+  } 
+
+  #logo:hover {
+    background: #0E4525;
+  }
+
+  #logo2:hover {
+    background: #0E4525;
+  }
 
   #logo {
     float: left;
@@ -76,6 +88,8 @@ body {
     text-align: center;
     text-decoration: none;
     background: #4AAB8D;
+    border: 3px double  #d0e1e8;
+    border-radius: 5px;
   }
   
   #logo2 {
@@ -90,7 +104,7 @@ body {
     text-align: center;
     text-decoration: none;
     background: #4AAB8D;
-    border-left: 4px solid #d0e1e8;
+    border: 3px double #d0e1e8;
   }
   
   nav {
@@ -100,12 +114,11 @@ body {
   
   nav a {
     display: inline-block;
-    padding-left: 15px;
-    margin-left: 15px;
     line-height: 18px;
     color: white;
     text-decoration: none;
     border-left: 1px solid #efefef;
+    padding: 10px 20px;
   }
   
   nav a:first-child {
@@ -202,6 +215,10 @@ body {
     transform: rotate(90deg);
   }
 
+
+  .projectCodeLink:hover {
+    background: #AACFBB;
+  }
 
 
   /* contact page */
