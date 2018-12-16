@@ -59,7 +59,7 @@ body {
     /*margin: 0px 0px 30px -7px;*/
     overflow: auto;
     color: #fff;
-    background: #fff;
+    background: #469DB8;
     border-bottom: 2px solid #ccc;
   }
   
@@ -103,7 +103,7 @@ body {
     padding-left: 15px;
     margin-left: 15px;
     line-height: 18px;
-    color: #999;
+    color: white;
     text-decoration: none;
     border-left: 1px solid #efefef;
   }
