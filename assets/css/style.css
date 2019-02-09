@@ -49,6 +49,7 @@ body {
   h3 {
     font-size: 22px;
   }
+
   
   /* header */
   
@@ -206,9 +207,8 @@ body {
   
   .auth-image {
     float: left;
-    width: 215px;
-    height: 200px;
-    margin-top: 10px;
+    width: 250px;
+    margin-top: 20px;
     margin-right: 25px;
     /*profile picture rotated*/
     -webkit-transform:rotate(90deg);
@@ -291,7 +291,6 @@ body {
 
     .auth-image {
       width: 250px;
-      height: 250px;
     }
 
     .main-section {
@@ -335,8 +334,7 @@ body {
       }
   
       .auth-image {
-        width: 250px;
-        height: 250px;
+        width: 230px;
       }
   
       .main-section {
@@ -378,6 +376,9 @@ body {
       width: 75%;
     }
 
+    .auth-image {
+      width: 215px;
+    }
 
     .main-section {
       margin: -100px 0px 0px 10px;
