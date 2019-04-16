@@ -1,58 +1,787 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Joe McKinney Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Joe McKinney's Portfolio</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <!--<link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>-->
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
+    type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/agency.css" rel="stylesheet">
+
 </head>
 
-<body>
+<body id="page-top">
 
-
-
-  <header id="masthead" style="top: 0px; left: 0px;">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-      <a href="index.html" id="logo">Joe McKinney</a>
-      <a href="https://github.com/josephfmck" id="logo2">Github Profile</a>
-      <a href="https://www.linkedin.com/in/joe-mckinney-575b89158/" id="logo2">LinkedIn Profile</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Projects</a>
-        <!--<a href="contact.html">Contact</a>-->
-      </nav>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Joe McKinney</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#team">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container">
+      <div class="intro-text">
+        <div class="intro-heading ">Joe McKinney</div>
+        <div class="intro-lead-in">Full Stack Web Developer</div>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#portfolio">Portfolio</a>
+      </div>
     </div>
   </header>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
-
-      <img src="assets/images/Joe-Profile.JPG" class="auth-image" alt="Joe McKinney">
-
-      <p>I'm Joe McKinney. I am a Full Stack Web Developer from Topeka, Kansas. I graduated from The University of Kansas with an undergrad business degree in Supply Chain Management. After graduating I entered into the KU Bootcamp program.</p>
-      <p>Feel free to reach out to me by email.</p>
-      <div id="emailDiv">
-        <a href="mailto:josephfmck@gmail.com">josephfmck@gmail.com</a>
+  <!-- Portfolio Grid -->
+  <section class="bg-light" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Portfolio</h2>
+          <h3 class="section-subheading text-muted">My Projects</h3>
+        </div>
       </div>
-      <br>
-      <p>I have always loved working with computers since I was a child as they have allowed my creativity to flourish throughout my life. The world is always developing new technologies, and I am excited to be part of it all. I am experienced with web development technology like Javascript, CSS, and HTML. I am formally trained in Full-Stack Web Development from the University of Kansas Coding Bootcamp. I have hands-on experience as a graduate of the University of Kansas Coding Bootcamp and enjoy learning programming languages and creating and designing responsive web pages. My strengths are organization, the ability to remain optimistic and calm under pressure, and that I am a lifelong learner willing to learn quickly and work hard. My passion for this industry combined with my technical skill set and ability to take on challenges of all sizes, prepare me for a future as a Front-End Web Developer.</p>
+      <div class="row">
 
-    </section>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" style="width:350px;height:175px;" src="img/portfolio/Screenshot-StepByStep.png"
+              alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Step-By-Step</h4>
+            <p class="text-muted">PROJECT #3</p>
+          </div>
+        </div>
 
-  </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" style="width:350px;height:175px;" src="img/portfolio/Screenshot-Tools4Tools.png"
+              alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Tools For Tools</h4>
+            <p class="text-muted">PROJECT #2</p>
+          </div>
+        </div>
 
-  <div class="container">
-    <div class="row">
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" style="width:350px;height:175px;" src="img/portfolio/Screenshot-National-Parks.png"
+              alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>National Parks Travel Guide</h4>
+            <p class="text-muted">PROJECT #1</p>
+          </div>
+        </div>
+
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" style="width:350px;height:175px;" src="img/portfolio/Screenshot-Burger.png"
+              alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Eat-Da-Burger</h4>
+            <p class="text-muted">November 2018</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" style="width:350px;height:175px;" src="img/portfolio/Screenshot-Friend-Finder.png"
+              alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Friend Finder</h4>
+            <p class="text-muted">November 2018</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" style="width:350px;height:175px;" src="img/portfolio/Screenshot-Bamazon.png"
+              alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Bamazon MySQL-Node</h4>
+            <p class="text-muted">October 2018</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" style="width:350px;height:175px;" src="img/portfolio/Screenshot-Giftastic.png"
+              alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Giftastic</h4>
+            <p class="text-muted">September 2018</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" style="width:350px;height:175px;" src="img/portfolio/Screenshot-Mongo.png"
+              alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Mongo Scraper</h4>
+            <p class="text-muted">January 2019</p>
+          </div>
+        </div>
+
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" style="width:350px;height:175px;" src="img/portfolio/Screenshot-Trivia.png"
+              alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Trivia Game</h4>
+            <p class="text-muted">January 2019</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">About </h2>
+          <h3 class="section-subheading text-muted">Joe McKinney</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="timeline">
+
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" id="profile-img" src="img/about/Joe-Profile.JPG" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4></h4>
+                  <h4 class="subheading">A Little Bit About Me.</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Hello! My name is Joe McKinney. I am a Full Stack Web Developer from Lawrence Kansas. I
+                    have experience with both Front-End and Back-End development.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/download.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4></h4>
+                  <h4 class="subheading">Education</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">The University Of Kansas <br> Bachelor of Science: <br> Supply Chain Management <br> August 2013 -
+                    May 2018</p>  
+                  <br>
+                  <p class="text-muted">The University Of Kansas <br> Full Stack Web Development Bootcamp <br> July 2018 -
+                    February 2019</p>  
+                </div>
+              </div>
+            </li>
+
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4></h4>
+                  <h4 class="subheading">Programming Languages &amp; Tools</h4>
+                </div>
+                <div class="timeline-body">
+
+                  <p class="text-muted">
+                    <ul>
+
+                      <li>
+                        HTML5/CSS
+                      </li>
+                      <li>React.js/Vue.js</li>
+
+                      <li>
+                        Javascript/jQuery
+                      </li>
+                      <li>
+                        Bootstrap
+                      </li>
+                      <li>
+                        APIs &amp; AJAX
+                      </li>
+                      <li>
+                        Node/Express
+                      </li>
+                      <li>
+                        NPM
+                      </li>
+                      <li>
+                        SQL Database
+                      </li>
+                      <li>
+                        MongoDB
+                      </li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section class="bg-light" id="team">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Contact</h2>
+          <h3 class="section-subheading text-muted">Lawrence, KS</h3>
+        </div>
+      </div>
+      <div class="row">
+
+        <div class="col-sm-12">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" id="contact-img" src="img/about/Joe-Business.jpg" alt="">
+            <h4>Joe McKinney</h4>
+            <p class="text-muted">Web Developer</p>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://github.com/josephfmck" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/joe-mckinney-575b89158/" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <!--<li class="list-inline-item">
+                <a href="#" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>-->
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h4 class="large text-muted"> (785) 969-2006 ·
+            <a href="mailto:josephfmck@gmail.com">josephfmck@gmail.com · </a>
+            <a href="resume.html" target="https://josephfmck.github.io/Responsive-Portfolio/resume.html">Résumé </a>
+          </h4>
+        </div>
+      </div>
+  </section>
+
+
+
+  <!-- Footer -->
   <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <span class="copyright">Copyright &copy; Joseph McKinney 2019</span>
+        </div>
 
-      Copyright &copy; 
-    
+      </div>
+    </div>
   </footer>
+
+  <!-- Portfolio Modals -->
+
+  <!-- Modal 1 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Tools For Tools</h2>
+                <p class="item-intro text-muted">Project #2</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/Screenshot-Tools4Tools.png" alt="">
+                <ul class="list-inline">
+                  <li>Date: December 2018</li>
+                </ul>
+                <button class="btn btn-standard" type="button">
+                  <a target="_blank" href="https://blooming-harbor-66992.herokuapp.com/">
+                    <i class="fas fa-arrow-alt-circle-right"></i>
+                    View</button>
+
+                <button class="btn btn-standard" type="button">
+                  <a target="_blank" class="card-link" href="https://github.com/josephfmck/Tools-For-Tools">
+                    <i class="fas fa-arrow-alt-circle-right"></i>
+                    Source Code</button>
+
+                <button class="btn btn-danger" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+  </a>
+  <!-- Modal 2 -->
+
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">National Parks Travel Guide</h2>
+                <p class="item-intro text-muted">Project #1</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/Screenshot-National-Parks.png" alt="">
+                <ul class="list-inline">
+                  <li>Date: October 2018</li>
+                </ul>
+
+                <button class="btn btn-standard" type="button">
+                  <a target="_blank" href="https://josephfmck.github.io/National-Parks-Travel-Guide/">
+                    <i class="fas fa-arrow-alt-circle-right"></i>
+                    View</button>
+
+                <button class="btn btn-standard" type="button">
+                  <a target="_blank" class="card-link"
+                    href="https://github.com/josephfmck/National-Parks-Travel-Guide">
+                    <i class="fas fa-arrow-alt-circle-right"></i>
+                    Source Code</button>
+
+                <button class="btn btn-danger" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </a>
+  <!-- Modal 3 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Eat-Da-burger</h2>
+                <p class="item-intro text-muted">Eat-Da-Burger</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/Screenshot-Burger.png" alt="">
+                <p></p>
+                <ul class="list-inline">
+                  <li>Date: November 2018</li>
+                </ul>
+
+                <button class="btn btn-standard" type="button">
+                  <a target="_blank" href="https://salty-castle-35634.herokuapp.com/">
+                    <i class="fas fa-arrow-alt-circle-right"></i>
+                    View</button>
+
+                <button class="btn btn-standard" type="button">
+                  <a target="_blank" class="card-link" href="https://github.com/josephfmck/burger">
+                    <i class="fas fa-arrow-alt-circle-right"></i>
+                    Source Code</button>
+
+                <button class="btn btn-danger" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </a>
+  <!-- Modal 4 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Friend Finder</h2>
+                <p class="item-intro text-muted">Friend Finder</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/Screenshot-Friend-Finder.png" alt="">
+                <p></p>
+                <ul class="list-inline">
+                  <li>Date: November 2018</li>
+                </ul>
+
+                <button class="btn btn-standard" type="button">
+                  <a target="_blank" href="https://hidden-taiga-25182.herokuapp.com/">
+                    <i class="fas fa-arrow-alt-circle-right"></i>
+                    View</button>
+
+                <button class="btn btn-standard" type="button">
+                  <a target="_blank" class="card-link" href="https://github.com/josephfmck/FriendFinder">
+                    <i class="fas fa-arrow-alt-circle-right"></i>
+                    Source Code</button>
+
+                <button class="btn btn-danger" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </a>
+  <!-- Modal 5 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Bamazon MySQL-Node</h2>
+                <p class="item-intro text-muted">Bamazon MySQL-Node</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/Screenshot-Bamazon.png" alt="">
+                <p></p>
+                <ul class="list-inline">
+                  <li>Date: October 2018</li>
+                </ul>
+
+                <button class="btn btn-standard" type="button">
+                  <a target="_blank" class="card-link" href="https://github.com/josephfmck/bamazon">
+                    <i class="fas fa-arrow-alt-circle-right"></i>
+                    Source Code</button>
+
+                <button class="btn btn-danger" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </a>
+  <!-- Modal 6 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Giftastic</h2>
+                <p class="item-intro text-muted">Giftastic</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/Screenshot-Giftastic.png" alt="">
+                <p></p>
+                <ul class="list-inline">
+                  <li>Date: September 2018</li>
+                </ul>
+
+                <button class="btn btn-standard" type="button">
+                  <a target="_blank" href="https://josephfmck.github.io/GifTastic/">
+                    <i class="fas fa-arrow-alt-circle-right"></i>
+                    View</button>
+
+                <button class="btn btn-standard" type="button">
+                  <a target="_blank" class="card-link" href="https://github.com/josephfmck/GifTastic">
+                    <i class="fas fa-arrow-alt-circle-right"></i>
+                    Source Code</button>
+
+                <button class="btn btn-danger" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </a>
+  <!-- Modal 7 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Step-By-Step</h2>
+                <p class="item-intro text-muted">Project #3</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/Screenshot-StepByStep.png" alt="">
+                <ul class="list-inline">
+                  <li>Date: January 2019</li>
+                </ul>
+                <button class="btn btn-standard" type="button">
+                  <a target="_blank" href="https://stepp-by-stepp.herokuapp.com/">
+                    <i class="fas fa-arrow-alt-circle-right"></i>
+                    View</button>
+
+                <button class="btn btn-standard" type="button">
+                  <a target="_blank" class="card-link" href="https://github.com/josephfmck/Step-By-Step">
+                    <i class="fas fa-arrow-alt-circle-right"></i>
+                    Source Code</button>
+
+                <button class="btn btn-danger" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </a>
+
+  <!-- Modal 8 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Mongo Scraper</h2>
+                <p class="item-intro text-muted">Mongo Scraper</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/Screenshot-Mongo.png" alt="">
+                <ul class="list-inline">
+                  <li>Date: January 2019</li>
+                </ul>
+                <button class="btn btn-standard" type="button">
+                  <a target="_blank" href="https://radiant-beyond-60549.herokuapp.com/">
+                    <i class="fas fa-arrow-alt-circle-right"></i>
+                    View</button>
+
+                <button class="btn btn-standard" type="button">
+                  <a target="_blank" class="card-link" href="https://github.com/josephfmck/mongo-scraper">
+                    <i class="fas fa-arrow-alt-circle-right"></i>
+                    Source Code</button>
+
+                <button class="btn btn-danger" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </a>
+
+  <!-- Modal 9 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Trivia Game</h2>
+                <p class="item-intro text-muted">Trivia Game</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/Screenshot-Trivia.png" alt="">
+                <ul class="list-inline">
+                  <li>Date: January 2019</li>
+                </ul>
+                <button class="btn btn-standard" type="button">
+                  <a target="_blank" href="https://josephfmck.github.io/TriviaGame/">
+                    <i class="fas fa-arrow-alt-circle-right"></i>
+                    View</button>
+
+                <button class="btn btn-standard" type="button">
+                  <a target="_blank" class="card-link" href="https://github.com/josephfmck/TriviaGame">
+                    <i class="fas fa-arrow-alt-circle-right"></i>
+                    Source Code</button>
+
+                <button class="btn btn-danger" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </a>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/agency.min.js"></script>
 
 </body>
 
