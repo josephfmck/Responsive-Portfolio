@@ -109,12 +109,6 @@ img::-moz-selection {
 }
 
 #profile-img {
-    /*profile picture rotated*/
-    -webkit-transform:rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
     height: 100%;
 }
 
@@ -211,7 +205,6 @@ background-color: rgb(119, 126, 145);
 width: 50%;
 margin-left: 25%;
 border: solid #fff;
-border-radius: 3%;
 padding: 8px 0px;
 }
 
@@ -233,7 +226,6 @@ header.masthead .intro-text .intro-heading h1 {
   width: 50%;
   margin-left: 25%;
   border: solid #fff;
-  border-radius: 3%;
   padding: 8px 0px;
 
   font-size: 50px;
