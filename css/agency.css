@@ -204,7 +204,7 @@ color: white;
 background-color: rgb(119, 126, 145);
 width: 50%;
 margin-left: 25%;
-border: solid #fff;
+border: solid #fff 1px;
 padding: 8px 0px;
 }
 
@@ -225,7 +225,7 @@ header.masthead .intro-text .intro-heading h1 {
   background-color: rgb(119, 126, 145);
   width: 50%;
   margin-left: 25%;
-  border: solid #fff;
+  border: solid #fff 1px;
   padding: 8px 0px;
 
   font-size: 50px;
