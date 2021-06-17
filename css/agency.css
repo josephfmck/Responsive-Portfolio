@@ -224,6 +224,7 @@ header.masthead .intro-text {
   width: 50%;
   margin-left: 25%;
   border: solid #fff 1px;
+  border-radius: 10px;
   padding: 8px 0px;
 }
 
@@ -249,6 +250,7 @@ header.masthead .intro-text .intro-heading h1 {
   width: 50%;
   margin-left: 25%;
   border: solid #fff 1px;
+  border-radius: 10px;
   padding: 8px 0px;
 
   font-size: 50px;
