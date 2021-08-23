@@ -253,9 +253,7 @@ header.masthead .intro-text .intro-heading h1 {
   border-radius: 10px;
   padding: 8px 0px;
 
-  font-size: 50px;
   font-weight: 700;
-  line-height: 50px;
 }
 
 @media (min-width: 768px) {
@@ -792,4 +790,24 @@ ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
   background-color: #fed136;
+}
+
+/** CUSTOM */
+/* 769, 481, 320 */
+@media (max-width: 320px) {
+  header.masthead .intro-text .intro-heading h1 {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 320px) {
+  header.masthead .intro-text .intro-heading h1 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 480px) {
+  header.masthead .intro-text .intro-heading h1 {
+    font-size: 30px;
+  }
 }
